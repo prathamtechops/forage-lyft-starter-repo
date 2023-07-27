@@ -14,4 +14,4 @@ class SpindlerBattery(Battery):
             self.current_date - self.last_service_date
         ).days / 365
 
-        return years_since_last_service >= 2
+        return years_since_last_service >= 3
